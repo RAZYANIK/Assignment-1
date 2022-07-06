@@ -24,6 +24,32 @@ body {
     color: rgb(254, 253, 255);
 }
 
+.extra {
+    background-image: url("images/donation7.jpg");
+    /* background-color: #cccccc; */
+    opacity: 1;
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.extra .part-4 {
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.part-4 h2 {
+    font-size: 60px;
+}
+
 .link-button {
     text-decoration: none;
     background-color: rgb(10, 56, 15);
@@ -122,6 +148,7 @@ body {
     /* background-image: url(images/exp-bg.png); */
     background-repeat: no-repeat;
     background-position: left;
+    text-decoration: none;
 }
 
 .part-3 {
@@ -179,6 +206,11 @@ body {
     background-repeat: no-repeat;
     background-position: 4% 20%;
     background-color: rgba(235, 191, 175, 0.291);
+}
+
+.list-situation {
+    text-decoration: none;
+    color: white;
 }
 
 .eamil-form {
