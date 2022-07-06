@@ -146,6 +146,11 @@ body {
     border-radius: 10px; */
 }
 
+.experience-item p {
+    text-align: justify;
+
+}
+
 .flexible {
     display: flex;
     margin-bottom: 200px;
