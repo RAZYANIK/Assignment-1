@@ -26,9 +26,152 @@ body {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(23, 22, 21), rgb(10, 9, 9));
-    padding: 10px 30px;
+    background-color: rgb(10, 56, 15);
+    padding: 20px 35px;
     color: white;
     border-radius: 5px;
 
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+
+.experience-newitem {
+
+    width: 150px;
+    margin: 15px;
+    padding-left: 77px;
+    color: rgb(103, 99, 99);
+    background-color: rgba(153, 151, 149, 0.629);
+    border-radius: 10px;
+}
+
+.upper {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.upper p {
+    font-size: 20px;
+    color: rgb(143, 141, 141);
+}
+
+#two-hundrad {
+    color: rgb(26, 45, 9);
+    background-color: rgba(24, 56, 29, 0.167);
+    border: 2px solid rgb(26, 45, 9);
+
+}
+
+
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.wrapper.input-data {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.wrapper .input-data label {
+    position: relative;
+    margin-left: 32%;
+    bottom: 40px;
+    /* left: 0; */
+    color: rgba(0, 0, 0, 0.438);
+    pointer-events: none;
+}
+
+.last-button {
+    margin-bottom: 200px;
+}
+
+.link2-button {
+    text-decoration: none;
+    background-color: rgb(10, 56, 15);
+    padding: 20px 35px;
+
+    margin-left: 46%;
+
+    border-radius: 5px;
+
+}
+
+.experience {
+    /* background-image: url(images/exp-bg.png); */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.part-3 {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.part-3 p {
+    font-size: 20px;
+    color: rgb(143, 141, 141);
+}
+
+.experience-item {
+
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding: 120px 15px 30px 15px;
+    /* box-shadow: 10px 10px 40px gray;
+    border-radius: 10px; */
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 200px;
+    margin-left: 220px;
+    margin-right: 220px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#id-1 {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: 4% 20%;
+    background-color: rgba(179, 230, 230, 0.341);
+}
+
+#id-2 {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: 4% 20%;
+    background-color: rgba(209, 222, 172, 0.342);
+}
+
+#id-3 {
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: 4% 20%;
+    background-color: rgba(235, 191, 175, 0.291);
 }
