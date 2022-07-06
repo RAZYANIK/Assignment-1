@@ -55,7 +55,7 @@ body {
     background-color: rgb(10, 56, 15);
     padding: 20px 35px;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
 
 }
 
@@ -66,14 +66,14 @@ body {
 }
 
 
-.experience-newitem {
+.newitem {
 
     width: 150px;
     margin: 15px;
-    padding-left: 77px;
+    padding-left: 80px;
     color: rgb(103, 99, 99);
     background-color: rgba(153, 151, 149, 0.629);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .upper {
@@ -94,9 +94,6 @@ body {
     border: 2px solid rgb(26, 45, 9);
 
 }
-
-
-
 
 .wrapper {
     display: flex;
@@ -144,7 +141,7 @@ body {
 
 }
 
-.experience {
+.donation {
     /* background-image: url(images/exp-bg.png); */
     background-repeat: no-repeat;
     background-position: left;
@@ -163,7 +160,7 @@ body {
     color: rgb(143, 141, 141);
 }
 
-.experience-item {
+.third-item {
 
     width: 70%;
     margin-left: 20px;
@@ -173,7 +170,7 @@ body {
     border-radius: 10px; */
 }
 
-.experience-item p {
+.third-item p {
     text-align: justify;
 
 }
@@ -260,6 +257,7 @@ body {
     font-size: 18px;
     color: white;
 }
+
 
 .in2 {
     font-size: 18px;
